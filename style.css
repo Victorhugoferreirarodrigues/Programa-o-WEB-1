@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('./images/background_img.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    backdrop-filter: blur(10px);
+}
+
+header h1 {
+    font-size: 400%;
+    color: aliceblue;
+    background-color: black;
+    padding: 2%;
+    margin-top: 0;
+}
+
+.subtitulo {
+    display: flex;
+    justify-content: left;
+    gap: 10%;
+    font-size: 200%;
+    color: aliceblue;
+}
+
+.subtitulo p {
+    margin: 0;
+    margin-left: 2%;
+}
+
+section h2 {
+    font-size: 290%;
+    color: aliceblue;
+    background-color: black;
+    padding: 2%;
+}
+
+.sobre {
+    display: flex;
+    align-items: center;
+    gap: 5%;
+}
+
+.sobre img {
+    margin-left: 30px;
+    display: block;
+    width: 20%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.sobre p {
+    font-size: 300%;
+    color: aliceblue;
+}
+
+.interesses {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 2% 0;
+    display: flex;
+    justify-content: center;
+    gap: 30%;
+}
+
+.interesses li, .rodape a {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 2%;
+    font-size: 200%;
+}
+
+.navegacao {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    font-size: 170%;
+    background-color: black;
+    padding: 1%;
+}
+
+.navegacao a {
+    text-decoration: none;
+    color: #3498db;
+    padding: 2%;
+}
+
+.redes {
+    font-size: 290%;
+    color: aliceblue;
+    padding: 2%;
+}
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    font-size: 170%;
+    color: aliceblue;
+    background-color: black;
+    padding: 1%;
+}
